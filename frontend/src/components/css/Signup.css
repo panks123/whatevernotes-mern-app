@@ -1,0 +1,36 @@
+.signup-form{
+    width: 80%;
+}
+.head{
+    margin-bottom: 25px;
+}
+
+#signup-box{
+    /* height: 75vh; */
+    width: 30vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 1000px){
+    #signup-box{
+        width: 45vw;
+    }
+}
+@media only screen and (max-width: 720px){
+    #signup-box{
+        width: 55vw;
+    }
+}
+@media only screen and (max-width: 550px){
+    #signup-box{
+        width: 65vw;
+    }
+}
+@media only screen and (max-width: 450px){
+    #signup-box{
+        width: 72vw;
+    }
+}

@@ -1,0 +1,20 @@
+.about-paras, .disclaimer{
+    width: 82%;
+    margin: auto;
+}
+.p1{
+    font-size: x-large;
+}
+
+.p2, .p3, .p4, .p5, .p6{
+    font-size: 1.1rem;
+}
+.p7{
+    font-size: larger;
+}
+
+@media only screen and (max-width: 1000px){
+    .about-paras, .disclaimer{
+        width: 92%;
+    }
+}
