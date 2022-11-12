@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 const NoteState = (props)=>{
-    const host = "http://localhost:5000" // To be added to .env file
+    const host = process.env.REACT_APP_HOST_SERVER 
     const notesInitial =[]
     
     const [notes, setNotes] = useState(notesInitial)
